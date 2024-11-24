@@ -51,8 +51,8 @@ h1, h2 {
 }
 .section1 {
     padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
+    margin: 1% auto;
+    max-width: 70%;
     background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -86,14 +86,13 @@ h1, h2 {
 /* Project Section Styling */
 .section {
     padding: 20px;
-    margin: auto auto;
-    max-width: 800px;
+    margin: 1% auto;
+    max-width: 70%;
     background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     align-items: center;
     text-align: center;
-    
 }
 
 .slider {
@@ -113,12 +112,10 @@ h1, h2 {
 }
 
 .card {
-    flex: 0 0 80%; /* Fixed card width */
-    margin: 2% 10%;
+    flex: 0 0 100%; /* Fixed card width */
     padding: 35px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    width: 80%;  
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;

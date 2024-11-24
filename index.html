@@ -96,6 +96,7 @@
         function slide(direction) {
             const cardsContainer = document.querySelector('.cards-container');
             const cards = document.querySelectorAll('.card');
+            const sectionproject = document.querySelectorAll('.section');
             const totalCards = cards.length - 1;
 
             // Update slide index
@@ -107,7 +108,7 @@
             }
 
             // Adjust slide position
-            const cardWidth = cards[0].offsetWidth + ((cardsContainer.offsetWidth-cards[0].offsetWidth) * 100); // 20px for gap
+            const cardWidth = sectionproject.offsetWidth // 20px for gap
             cardsContainer.style.transform = `translateX(-${currentSlide * cardWidth}px)`;
         }
     </script>
