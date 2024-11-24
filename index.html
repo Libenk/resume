@@ -107,7 +107,7 @@
             }
 
             // Adjust slide position
-            const cardWidth = cards[0].offsetWidth + 20; // 20px for gap
+            const cardWidth = cards[0].offsetWidth + ((cardsContainer.offsetWidth-cards[0].offsetWidth) * 100); // 20px for gap
             cardsContainer.style.transform = `translateX(-${currentSlide * cardWidth}px)`;
         }
     </script>
