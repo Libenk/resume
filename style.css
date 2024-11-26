@@ -82,7 +82,7 @@ h1, h2 {
     margin: 0 auto 20px;
     image-rendering: optimizeQuality;
     width: 30%;
-    height: 20%;
+    height: 30%;
     border-radius: 50%;
     border: 3px solid #2c3e50;
 }
@@ -136,6 +136,7 @@ h1, h2 {
     text-align: center;
     align-self: center;
     font-size: 2rem;
+    padding: 0.2rem;
 }
 
 .card p {
