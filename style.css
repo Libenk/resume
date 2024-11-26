@@ -124,9 +124,9 @@ h1, h2 {
     background-color: #ffebeb;
     text-align: center;
     padding: 10px;
+    height:63vw;
     box-sizing: border-box;
-    height: auto;             /* Height adjusts based on content */
-    max-width: 100%;          /* Ensure cards do not stretch beyond container */
+    width: 100%;          /* Ensure cards do not stretch beyond container */
 }
 
 .card h3 {
