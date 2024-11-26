@@ -113,6 +113,7 @@ h1, h2 {
 .cards-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    align-items: stretch; /* Makes all cards equal in height */
    
 }
 
@@ -123,6 +124,8 @@ h1, h2 {
     text-align: center;
     align-self: center;
     align-content: center;
+    padding-block: 25px;
+    aspect-ratio: 1 / 1;
 }
 
 .card h3 {
@@ -165,6 +168,7 @@ h1, h2 {
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    bottom: 20px;
 }
 
 .controls button:hover {
