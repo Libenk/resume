@@ -115,20 +115,18 @@ h1, h2 {
 
 .cards-container {
     display: flex;
-    transition: transform 0.5s ease-in-out;
-    align-items: stretch; /* Makes all cards equal in height */
-   
+    justify-content: space-between;  /* Space out cards */
 }
 
 .card {
-    flex: 0 0 99.9%; /* Fixed card width */
+    flex: 0 0 calc(100% ); /* Each card takes up 50% of the container width minus gap */
     border-radius: 8px;
     background-color: #ffebeb;
     text-align: center;
-    align-self: center;
-    align-content: center;
-    padding-block: 25px;
-    aspect-ratio: 1 / 1;
+    padding: 10px;
+    box-sizing: border-box;
+    height: auto;             /* Height adjusts based on content */
+    max-width: 100%;          /* Ensure cards do not stretch beyond container */
 }
 
 .card h3 {
