@@ -28,7 +28,7 @@ h1, h2 {
 .header h1 {
     margin: 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .header nav {
@@ -40,7 +40,7 @@ h1, h2 {
 .header button {
     margin: 5px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 2rem;
     background-color: #7a0101;
     color: white;
     border: none;
@@ -81,8 +81,8 @@ h1, h2 {
     display: block;
     margin: 0 auto 20px;
     image-rendering: optimizeQuality;
-    width: 60%;
-    height: 60%;
+    width: 30%;
+    height: 20%;
     border-radius: 50%;
     border: 3px solid #2c3e50;
 }
@@ -90,7 +90,7 @@ h1, h2 {
     display: block;
     margin: 0 auto 20px;
     width: 70%;
-    height: 50%;
+    height: 70%;
     border: 3px solid #2c3e50;
 }
 /* Project Section Styling */
@@ -125,7 +125,7 @@ h1, h2 {
     background-color: #ffebeb;
     text-align: center;
     padding: 10px;
-    height:30vw;
+    height:49vw;
     box-sizing: border-box;
     width: 100%;     
 }
