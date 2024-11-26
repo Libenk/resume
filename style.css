@@ -97,7 +97,6 @@ h1, h2 {
     background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    align-items: center;
     text-align: center;
 }
 
@@ -113,19 +112,19 @@ h1, h2 {
 .cards-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    align-items: stretch; /* Makes all cards equal in height */
-   
+    align-items: flex-start;  /* Align items at the start (do not stretch) */
+    justify-content: space-around; /* Optional: space out the cards evenly */
 }
 
 .card {
-    flex: 0 0 99.9%; /* Fixed card width */
+    flex: 1 0 99.9%; /* Fixed card width */
     border-radius: 8px;
     background-color: #ffebeb;
     text-align: center;
     align-self: center;
-    align-content: center;
     padding-block: 25px;
     aspect-ratio: 1 / 1;
+    max-height: 80%;           /* Optional: Limit the max height */
 }
 
 .card h3 {
