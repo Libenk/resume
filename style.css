@@ -81,8 +81,8 @@ h1, h2 {
     display: block;
     margin: 0 auto 20px;
     image-rendering: optimizeQuality;
-    width: 150px;
-    height: 250px;
+    width: 60%;
+    height: 60%;
     border-radius: 50%;
     border: 3px solid #2c3e50;
 }
@@ -90,7 +90,7 @@ h1, h2 {
     display: block;
     margin: 0 auto 20px;
     width: 70%;
-    height: 50%;
+    height: 70%;
     border: 3px solid #2c3e50;
 }
 /* Project Section Styling */
