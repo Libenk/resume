@@ -126,7 +126,8 @@ h1, h2 {
     padding: 10px;
     height:63vw;
     box-sizing: border-box;
-    width: 100%;          /* Ensure cards do not stretch beyond container */
+    width: 100%;     
+    height: 500px;     /* Ensure cards do not stretch beyond container */
 }
 
 .card h3 {
