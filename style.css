@@ -36,13 +36,21 @@ body {
     scroll-behavior: smooth;
 
 }
-h1, h2 {
-    color: #f7cc0d;
+h2 {
+    color: #01130f00;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    
+}
+h1 {
+    color: #ffffffda;
+    font-weight: 5000;
+    font-style:italic ;
+    text-align: center;
+    font-size: 2rem;
 }
 .header {
-    background-color: #af0029;
+    background-color: ##3900ff94;
     color: white;
     padding: 20px;
     text-align: center;
@@ -65,13 +73,14 @@ h1, h2 {
 
 .header button {
     margin: 2px;
-    padding: 10px 30px;
+    padding: 10px 50px;
     font-size: 1.5rem;
-    background-color: #7a0101;
+    background-color: #49c6ec;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-right: 50px;
 }
 
 .header button:hover {
@@ -117,6 +126,7 @@ h1, h2 {
     margin: 0 auto 20px;
     width: 70%;
     height: 70%;
+    border-radius: 10px;
     border: 3px solid #2c3e50;
 }
 /* Project Section Styling */
@@ -144,13 +154,17 @@ h1, h2 {
 .cards-container {
     background-color: #227fdb;
     display: flex;
+    border-radius: 10px;
+
     justify-content: space-between;  /* Space out cards */
 }
 
 .card {
     flex: 0 0 calc(100% ); /* Each card takes up 50% of the container width minus gap */
     border-radius: 8px;
-    background-color: #227fdb;
+    border-radius: 10px;
+
+    background-color: #b6d2ee;
 
     text-align: center;
     padding: 10px;
@@ -214,7 +228,7 @@ h1, h2 {
     margin: 0 5px;
     padding: 10px 15px;
     font-size: 18px;
-    background-color: #4da1da;
+    background-color: #003c64;
     color: white;
     border: none;
     border-radius: 50%;
@@ -223,5 +237,5 @@ h1, h2 {
 }
 
 .controls button:hover {
-    background-color: #2980b9;
+    background-color: #83bfe7;
 }
