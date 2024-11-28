@@ -50,11 +50,11 @@ h1 {
     font-size: 2rem;
 }
 .header {
-    background-color: ##3900ff94;
+    background-color: #3900ff94;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 1000;
 }
@@ -73,14 +73,14 @@ h1 {
 
 .header button {
     margin: 2px;
-    padding: 10px 50px;
+    padding: 10px 40px;
     font-size: 1.5rem;
     background-color: #49c6ec;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 .header button:hover {
@@ -88,9 +88,9 @@ h1 {
 }
 .section1 {
     padding: 20px;
-    margin: 1% auto;
+    margin: auto auto;
     max-width: 70%;
-    background: white;
+    background: rgba(6, 23, 74, 0.858);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     align-items: center;
