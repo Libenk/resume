@@ -52,7 +52,7 @@ h1 {
 .header {
     background-color: #3900ff94;
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     position: relative;
     top: 0;
@@ -95,26 +95,39 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     align-items: center;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .section1 h2 {
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #5e4cb8;
     align-items: center;
     align-self: center;
     font-size: 3.5rem;
+    color: #a3a9f3;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section1 h1 {
+    border-bottom: 2px solid #f30101;
+    align-items: center;
+    align-self: center;
+    font-size: 3.5rem;
+    color: #e4e2e2;
 }
 
 .section1 p {
-    margin: 0px 0;
+    margin: 0px 0px;
     text-align: center;
     font-size: 1.2rem;
     padding: 1.5rem;
+    color: #b6d2ee;
 }
 
 /* Profile Photo Styling */
 .profile-photo {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
     image-rendering: optimizeQuality;
     width: 30%;
     height: 30%;
@@ -125,7 +138,7 @@ h1 {
     display: block;
     margin: 0 auto 20px;
     width: 70%;
-    height: 70%;
+    height: 50%;
     border-radius: 10px;
     border: 3px solid #2c3e50;
 }
@@ -135,11 +148,11 @@ h1 {
     margin: 1% auto;
     max-width: 70%;
     background: white;
-    border-radius: 8px;
+    border-radius: 9px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .slider {
@@ -168,7 +181,7 @@ h1 {
 
     text-align: center;
     padding: 10px;
-    height:49vw;
+    height:69vw;
     box-sizing: border-box;
     width: 100%;     
     padding: 40px;
