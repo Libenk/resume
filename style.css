@@ -148,7 +148,7 @@ h1 {
     padding: 20px;
     margin: 1% auto;
     max-width: 70%;
-    background: white;
+    background: rgba(6, 23, 74, 0.858);
     border-radius: 9px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     align-items: center;
@@ -178,7 +178,7 @@ h1 {
     border-radius: 8px;
     border-radius: 10px;
 
-    background-color: #3a9afa;
+    background-color: #feffff;
 
     text-align: center;
     padding: 20px;
@@ -210,18 +210,14 @@ h1 {
     color: #2c3e50;
     text-align: center;
     align-self: center;
-<<<<<<< HEAD
-    font-size: 1.5rem;
-=======
-    font-size: 1.8rem;
->>>>>>> 84dde1e26430011874063e5ea94d0de8694fa11f
+    font-size: 1.3rem;
 }
 
 
 .card button {
     width: max-content;
     padding: 10px 15px;
-    background-color: #133249;
+    background-color: #c2c2c2;
     color: white;
     position: relative;
     border: none;
