@@ -102,8 +102,8 @@ h1 {
     border-bottom: 2px solid #5e4cb8;
     align-items: center;
     align-self: center;
-    font-size: 3.5rem;
-    color: #a3a9f3;
+    font-size: 4vw;
+    color: #ffffff;
     margin-top: 20px;
     padding-bottom: 20px;
 }
@@ -113,16 +113,16 @@ h1 {
     align-items: center;
     align-self: center;
     font-size: 3.5rem;
-    color: #e4e2e2;
+    color: #fcfcfc;
 }
 
 .section1 p {
     margin: 0px 0px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2.5vw;
     padding: 0.5rem 3.5rem;
 
-    color: #b6d2ee;
+    color: #ffffff;
 }
 
 /* Profile Photo Styling */
@@ -201,7 +201,7 @@ h1 {
     color: #f7cc0d;;
     text-align: center;
     align-self: center;
-    font-size: 2rem;
+    font-size: 4vw;
 }
 
 
@@ -210,7 +210,7 @@ h1 {
     color: #2c3e50;
     text-align: center;
     align-self: center;
-    font-size: 1.3rem;
+    font-size: 1.3vw;
 }
 
 
